@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/could1"
+    android:foregroundGravity="bottom|right"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="136dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Good Day"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="321dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="184dp"
+        android:text="The moon is Freind for Lonesome to talk"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="142dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_focus"
+
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@drawable/fucos"
+            android:gravity="bottom|left"
+            android:padding="10dp"
+            android:text="Focus"
+            android:textColor="#F37A0A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_sleep"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@drawable/sleep"
+            android:gravity="bottom|left"
+            android:padding="10dp"
+            android:text="SLEEP"
+            android:textColor="#050505"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_relax"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@drawable/relaxcloud"
+            android:gravity="bottom|left"
+            android:padding="10dp"
+            android:text="RELAX"
+            android:textColor="#FC089A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:padding="10dp"
+            android:text="Button" />
+
+    </>
+
+    <Button
+        android:id="@+id/btn_start_focus"
+        android:layout_width="139dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:text="Start Focus"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/ic_account_circle_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
